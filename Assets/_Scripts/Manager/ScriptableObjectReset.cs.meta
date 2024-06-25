@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 6fd86c7bb06bb1442b5e96c09bfa8555
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - plHealth: {fileID: 11400000, guid: 932a1746ffc09f841a02171899cfe714, type: 2}
+  - plMaxHealth: {fileID: 11400000, guid: ecdaf07943166a94baa16463bef731c7, type: 2}
+  - extrajumpcount: {fileID: 11400000, guid: dc2ec2be0ac4a044c8a98633d8911e38, type: 2}
+  - jumpforce: {fileID: 11400000, guid: 02949839e4706f54da77534db7bacea2, type: 2}
+  - bldamage: {fileID: 11400000, guid: 83b962be0cabe2441856fd71610ca3c2, type: 2}
+  - blscale: {fileID: 11400000, guid: 77b4f26037078bb48bf3acc741ace921, type: 2}
+  - blspeed: {fileID: 11400000, guid: 0e67403f05de5ec4787b4573ce3a2908, type: 2}
+  - bltime: {fileID: 11400000, guid: e0b26945c1222784ab380228e053c7a3, type: 2}
+  - lifesteal: {fileID: 11400000, guid: 9224b25fe5b386d4d9982196ed8e9760, type: 2}
+  - shootdelay: {fileID: 11400000, guid: 34e9ed621dd06b94bbd0e827b2dc0b6f, type: 2}
+  - plspeed: {fileID: 11400000, guid: ce2c4b1c0cc6db84a9fda5487da1e754, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

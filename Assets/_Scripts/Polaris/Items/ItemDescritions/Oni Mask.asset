@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fb6924d006de34787e1126c20d131c, type: 3}
+  m_Name: Oni Mask
+  m_EditorClassIdentifier: 
+  Itemname: Oni Mask
+  icon: {fileID: 21300000, guid: 7b16e8ceade16d64a8a31ed7338bef5f, type: 3}
+  description: Spooky! Enhance your stats in all areas and give you 2 extra jumps.
+  powerupEffects:
+  - {fileID: 11400000, guid: b695e3149d708ea438acb20df5f43a17, type: 2}
+  - {fileID: 11400000, guid: 657c6eb9c07ad3a43b2b2018242068f8, type: 2}
+  - {fileID: 11400000, guid: 29f010013851033428da909f60420c82, type: 2}
+  - {fileID: 11400000, guid: 00e80adcd38edf14489133bff32c690e, type: 2}
+  - {fileID: 11400000, guid: cfc9889f80a1d3649bcb6c2f1ee962d4, type: 2}
+  - {fileID: 11400000, guid: 043e737400634464693263ec9c892401, type: 2}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fb6924d006de34787e1126c20d131c, type: 3}
+  m_Name: Sheriff's Badge
+  m_EditorClassIdentifier: 
+  Itemname: Sheriff's Badge
+  icon: {fileID: 21300000, guid: d37912e5bfb2dd042bd0fd53266606ce, type: 3}
+  description: There's a new sheriff in town. You shoot faster and with more bullets.
+  powerupEffects:
+  - {fileID: 11400000, guid: cfc9889f80a1d3649bcb6c2f1ee962d4, type: 2}
+  - {fileID: 11400000, guid: 353c0b540afc48d43b03831485f91bb6, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fb6924d006de34787e1126c20d131c, type: 3}
+  m_Name: Smithing Hammer
+  m_EditorClassIdentifier: 
+  Itemname: Smithing Hammer
+  icon: {fileID: 21300000, guid: b26b199945b077e439d8a5485a61638e, type: 3}
+  description: Clank! Clank! Clank! You shoot faster, your bullets are bigger,faster
+    and deal more damage.
+  powerupEffects:
+  - {fileID: 11400000, guid: b019863a1d1102944b8c269911c65594, type: 2}
+  - {fileID: 11400000, guid: 3de716f07070af14d822cf29cc4f1362, type: 2}
+  - {fileID: 11400000, guid: 043e737400634464693263ec9c892401, type: 2}
+  - {fileID: 11400000, guid: cfc9889f80a1d3649bcb6c2f1ee962d4, type: 2}
+  - {fileID: 11400000, guid: 436e4a5978b6e7a46a55b94f190d0cc9, type: 2}

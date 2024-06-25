@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5679280885575032701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5575596812547203854}
+  - component: {fileID: 1827690252}
+  - component: {fileID: 1827690251}
+  - component: {fileID: 776615953808885260}
+  - component: {fileID: 2891919259224862696}
+  m_Layer: 0
+  m_Name: TinyAudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5575596812547203854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5679280885575032701}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1827690252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5679280885575032701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9db860c3b5cd9440b4915ef61f6070b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  masterVolume: 1
+  musicVolume: 0.605
+  ambientVolume: 1
+  fxVolume: 0.708
+  MusicIsLooping: 1
+  AmbientIsLooping: 1
+  CoroutineRun: 0
+--- !u!114 &1827690251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5679280885575032701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1ddf00c23b907f47931218774e28a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundGroups:
+  - name: Gunshot
+    clip:
+    - {fileID: 8300000, guid: 6eca10f1b66257544a3d599d198805af, type: 3}
+    - {fileID: 8300000, guid: 2e03647c3b7eee348b9c851f2bb285ce, type: 3}
+    - {fileID: 8300000, guid: 19c84be326e125941af05254b47f94d8, type: 3}
+  - name: ButtonHover
+    clip:
+    - {fileID: 8300000, guid: b7ec94d804189604d8488f361e55de2d, type: 3}
+  - name: ButtonPressed
+    clip:
+    - {fileID: 8300000, guid: 5e5974b426088a447985f0e75271fe83, type: 3}
+  - name: Jump
+    clip:
+    - {fileID: 8300000, guid: d097d9e39fa7e61448954429e15d2102, type: 3}
+  - name: Walk
+    clip:
+    - {fileID: 8300000, guid: 72692815f170ce54b9164d36494a7f70, type: 3}
+    - {fileID: 8300000, guid: 176808bdfbf07274d98f39e5dde3796e, type: 3}
+    - {fileID: 8300000, guid: a5ba95f6295995848958563f153f3c6c, type: 3}
+    - {fileID: 8300000, guid: cc31be72ce9d9f84f9ab976f88d40bd3, type: 3}
+  - name: Fall
+    clip:
+    - {fileID: 8300000, guid: febd7c3679a46bd4a9b77fd4c5784b7a, type: 3}
+    - {fileID: 8300000, guid: b35c53e51813b944485aaed2c336a138, type: 3}
+    - {fileID: 8300000, guid: b35c53e51813b944485aaed2c336a138, type: 3}
+  - name: Dash
+    clip:
+    - {fileID: 8300000, guid: e6c45818eabfc33479a78698b165e5f5, type: 3}
+    - {fileID: 8300000, guid: 97bb53c160a2aba419f1e6f802339a9a, type: 3}
+  - name: MonsterMelee
+    clip:
+    - {fileID: 8300000, guid: 50a46321969855e4c81fd904fa6e8562, type: 3}
+    - {fileID: 8300000, guid: c531d1b3340fb9342b5e1ff0921e8969, type: 3}
+  - name: PigDeath
+    clip:
+    - {fileID: 8300000, guid: 8d0eb7c12f7397240a4ddf0376505755, type: 3}
+  - name: GobDeath
+    clip:
+    - {fileID: 8300000, guid: 6f7328374d36d7545b8f6c7ccfe78937, type: 3}
+  - name: MonsterShoot
+    clip:
+    - {fileID: 8300000, guid: 744eee801f0bfe247b3dd96026b6f2c1, type: 3}
+  - name: Crackle
+    clip:
+    - {fileID: 8300000, guid: c73268e8926f0734da356db3e63b989a, type: 3}
+    - {fileID: 8300000, guid: e8f2a831be2a7e64f85b1c65f1f056d2, type: 3}
+    - {fileID: 8300000, guid: 9a7593557693eab4db6c704173778c6f, type: 3}
+  - name: Damaged
+    clip:
+    - {fileID: 8300000, guid: 67a05080bbd7146499be1ea6d2d12758, type: 3}
+    - {fileID: 8300000, guid: 228ae6903aaa6574bbc87058062dc971, type: 3}
+  - name: ItemPickUp
+    clip:
+    - {fileID: 8300000, guid: c92d98c7372f1ac409e48fc0190deb8a, type: 3}
+  - name: PlayerDeath
+    clip:
+    - {fileID: 8300000, guid: 9b1da99d162220440a58c2452ed72505, type: 3}
+  - name: InvenOpen
+    clip:
+    - {fileID: 8300000, guid: 2b190078a11875a4184e6eae4a251cbb, type: 3}
+  - name: InvenClose
+    clip:
+    - {fileID: 8300000, guid: 87573246ebec7bf4294fed66adfc49d2, type: 3}
+  - name: Boss
+    clip:
+    - {fileID: 8300000, guid: eb812f06098eae0448aeebf284caccc1, type: 3}
+--- !u!114 &776615953808885260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5679280885575032701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24cdf81831528084b981ed3e66facce0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicGroups:
+  - name: MainMenu
+    clip: {fileID: 8300000, guid: 6bb3b41d572bee248a07395f5f1715db, type: 3}
+  - name: Boss
+    clip: {fileID: 8300000, guid: 5f456448542ccde4faf52cbdfabc5eaf, type: 3}
+  - name: Levels
+    clip: {fileID: 8300000, guid: 838c2e99df3a1194db8f467335881924, type: 3}
+  - name: Library
+    clip: {fileID: 8300000, guid: 2fa4668c9cf97a542b0633929d48c444, type: 3}
+--- !u!114 &2891919259224862696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5679280885575032701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e03573f0eebd54bb31f13eea8b138e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambientGroups:
+  - name: Gate
+    clip: {fileID: 8300000, guid: 0ceb6063959183d469671efde4fb740c, type: 3}

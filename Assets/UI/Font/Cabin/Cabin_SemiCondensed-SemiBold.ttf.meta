@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 42a36ce2f2cb62841a261a62666faf5c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Cabin SemiCondensed
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 323d07d74f68ef04c8b88459e6cf5d1d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
